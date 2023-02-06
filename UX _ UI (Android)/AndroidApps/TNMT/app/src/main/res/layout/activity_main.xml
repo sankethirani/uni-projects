@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tmntImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/donatello"
+        android:scaleType="centerInside"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbDon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donatello"
+            android:onClick="onClickDon"/>
+
+        <RadioButton
+            android:id="@+id/rbLeo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leonardo"
+            android:onClick="onClickLeo"/>
+
+        <RadioButton
+            android:id="@+id/rbMic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Michelangelo"
+            android:onClick="onClickMic"/>
+
+        <RadioButton
+            android:id="@+id/rbRap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raphael"
+            android:onClick="onClickRap"/>
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/mit_manukau"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/mit_hub_logo"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_input_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#ffffff"
+                app:errorTextAppearance="@style/error_appearance">
+
+                <android.support.design.widget.TextInputEditText
+
+                    android:id="@+id/txt_email_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#ffffff"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_input_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:passwordToggleEnabled="true"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="15dp"
+                app:errorTextAppearance="@style/error_appearance">
+
+                <EditText
+                    android:id="@+id/txt_password_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:textAppearance="@style/error_appearance"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/reset_password_button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Reset Password"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/transparent"
+                android:textAlignment="textEnd"/>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <Button
+                android:id="@+id/button_register_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:backgroundTint="@color/colorAccent"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Team A and B names:"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_team_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team A" />
+
+    <EditText
+        android:id="@+id/edit_text_team_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team B"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textColor="#ffffff"
+        android:layout_gravity="end"
+        android:onClick="StartGameActivity"
+        android:background="#0091EA"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "753101900415",
+    "firebase_url": "https://mithub-85c1b.firebaseio.com",
+    "project_id": "mithub-85c1b",
+    "storage_bucket": "mithub-85c1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753101900415:android:071a88f8a05cd04b",
+        "android_client_info": {
+          "package_name": "com.example.mithub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753101900415-v6bf8rflqi2ncm2bdak0lrspo2oqtd3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mithub",
+            "certificate_hash": "d471c55921306171a0b529b64a8cfe927c4ed209"
+          }
+        },
+        {
+          "client_id": "753101900415-vm4p7a0k0akhni4q3gnvoducle9a28a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj8PpR-tSWiBnTicdo2AY1a7CG3MJH0z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753101900415-vm4p7a0k0akhni4q3gnvoducle9a28a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

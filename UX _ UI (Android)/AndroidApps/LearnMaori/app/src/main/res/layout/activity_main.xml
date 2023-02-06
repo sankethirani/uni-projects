@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <android.support.v7.widget.CardView
+        style="@style/CategoryCardStyle"
+        app:cardBackgroundColor="#689F38"
+        android:id="@+id/card_numbers">
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:text="Learn Numbers"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CategoryCardStyle"
+        app:cardBackgroundColor="#0091EA"
+        android:onClick="ShowFamilyActivty">
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:text="Learn Family Members"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CategoryCardStyle"
+        app:cardBackgroundColor="#FF6D00"
+        android:onClick="ShowColorsActivity">
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:text="Learn Colors"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

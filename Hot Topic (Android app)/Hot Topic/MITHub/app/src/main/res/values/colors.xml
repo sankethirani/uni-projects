@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#8E0000</color>
+    <color name="colorLight">#ffebee</color>
+    <color name="colorAccent">#cfd8dc</color>
+    <color name="tabIndicator">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="upvoted">#228B22</color>
+    <color name="light_gray">#A9A9A9</color>
+    <color name="tabBackground">#66C62828</color>
+</resources>
